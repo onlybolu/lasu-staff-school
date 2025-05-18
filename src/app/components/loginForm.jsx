@@ -3,9 +3,13 @@ import Image from 'next/image'
 import React from 'react'
 import { useState } from 'react'
 
+
 const LoginForm = () => {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
+
+
+    const Logo = '/logo.jpg'
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -28,7 +32,7 @@ const LoginForm = () => {
     <div className='bg-white rounded-3xl shadow-lg p-8 max-w-sm md:max-w-xl justify-center mx-2 flex flex-col w-full'>
       <div className='flex-col  '>
       <div className=" flex justify-center">
-        <Image width={500} height={500} className='w-[35%]' src="/logo1.jpg" alt="" />
+        <Image width={500} height={500} className='w-[35%]' src={Logo} alt="" />
        </div>
        <div className='flex justify-center pt-4 font-bold text-2xl text-center text-gray-700 border-b-1 border-gray-300 pb-4'>
         <h1>LAGOS STATE UNIVERSITY STAFF SCHOOL</h1>
