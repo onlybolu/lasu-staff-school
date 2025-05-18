@@ -18,9 +18,12 @@ const LoginForm = () => {
             password
         }
         console.log(data)
-        alert('Login successful')
+       
         if(!username || !password){
             alert('Please fill in all fields')
+        }
+        else{
+            alert('Login successful')
         }
     }
     const handleKeyDown = (e) => {
