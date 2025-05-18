@@ -5,7 +5,7 @@ export default function Home() {
   return (
    <section className="w-full ">
     <div className="absolute w-full ">
-      <img className="w-full  object-cover" src="/background.jpg" alt="" />
+      <img className="w-full  object-cover" src="/background.JPG" alt="" />
     </div>
    <div className="relative w-full h-screen flex justify-center items-center bg-black-100 bg-opacity-180">
    <LoginForm />

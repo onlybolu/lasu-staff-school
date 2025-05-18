@@ -9,7 +9,7 @@ const LoginForm = () => {
     const [password, setPassword] = useState('')
 
 
-    const Logo = '/logo1.jpg'
+    const Logo = '/logo1.JPG'
 
     const handleSubmit = (e) => {
         e.preventDefault()
